@@ -1,6 +1,5 @@
 import requests
 
-url = "https://sigdef.eauxetforets.gov.ma/arcgis/apps/webappviewer/index.html?id=57a4e93c2c0e47358208c66930f360e5"
 
 def fetch(url, timeout=15 ):
     try:
@@ -15,6 +14,7 @@ def fetch(url, timeout=15 ):
         return resp
 
 
+url = "https://sigdef.eauxetforets.gov.ma/arcgis/apps/webappviewer/index.html?id=57a4e93c2c0e47358208c66930f360e5"
 
 
 if __name__ == '__main__':
